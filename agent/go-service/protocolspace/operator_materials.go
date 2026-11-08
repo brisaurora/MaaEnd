@@ -8,6 +8,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/MaaXYZ/MaaEnd/agent/go-service/pkg/i18n"
+	"github.com/MaaXYZ/MaaEnd/agent/go-service/pkg/maafocus"
 	"github.com/MaaXYZ/MaaEnd/agent/go-service/pkg/resource"
 	maa "github.com/MaaXYZ/maa-framework-go/v4"
 	"github.com/rs/zerolog/log"
@@ -174,6 +176,21 @@ func writeOperatorMaterials(ctx *maa.Context, nodeName string, materials map[str
 	})
 }
 
+// reportOperatorMaterials 通过 Focus 输出培养材料汇总。
+func reportOperatorMaterials(ctx *maa.Context, materials map[string]int) {
+	var lines []string
+	for _, itemID := range slices.Sorted(maps.Keys(materials)) {
+		itemNameKey := "iconRecognition.name." + itemID
+		if strings.HasSuffix(itemID, "_EXP") {
+			itemNameKey = "option.SupplyPlanLimits.inputs." + itemID + ".label"
+		}
+		itemName := i18n.T(itemNameKey)
+		lines = append(lines, fmt.Sprintf("%s:%d", itemName, materials[itemID]))
+	}
+
+	maafocus.Print(ctx, strings.Join(lines, "\n"))
+}
+
 // Run 读取角色节点的计算结果，将汇总材料写入当前节点的 attach。
 func (a *SumOperatorMaterialsAction) Run(ctx *maa.Context, arg *maa.CustomActionArg) bool {
 	const component = "ProtocolSpaceSumOperatorMaterialsAction"
@@ -195,6 +212,7 @@ func (a *SumOperatorMaterialsAction) Run(ctx *maa.Context, arg *maa.CustomAction
 		log.Error().Err(err).Str("component", component).Str("node", arg.CurrentTaskName).Msg("failed to export operator material summary")
 		return false
 	}
+	reportOperatorMaterials(ctx, materials)
 	return true
 }
 
