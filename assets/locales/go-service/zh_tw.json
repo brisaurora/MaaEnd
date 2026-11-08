@@ -174,6 +174,7 @@
     "outposttrading.runtime.stock_priority_enabled": "📦 已啟用庫存優先販售：依本地倉儲數量由高至低選擇貨品。",
     "outposttrading.runtime.usage.restore": "售後生產聯絡幹員",
     "outposttrading.runtime.usage.target": "販售聯絡幹員",
+    "protocolspace.material_summary.title": "培養材料需求如下：",
     "pullcount.error.invalid_params": "抽數計算參數無效",
     "pullcount.error.recognition_failed": "抽數計算識別失敗：%s。請確認目前處於幹員尋訪介面且頂部資源欄未被遮擋。",
     "pullcount.resource.originium": "衍質源石換算嵌晶玉",

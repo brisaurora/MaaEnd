@@ -175,6 +175,7 @@
     "outposttrading.runtime.stock_priority_enabled": "📦 已启用库存优先售卖：按本地仓储数量从高到低选择货品。",
     "outposttrading.runtime.usage.restore": "售后生产联络干员",
     "outposttrading.runtime.usage.target": "售卖联络干员",
+    "protocolspace.material_summary.title": "培养材料需求如下：",
     "pullcount.error.invalid_params": "抽数计算参数无效",
     "pullcount.error.recognition_failed": "抽数计算识别失败：%s。请确认当前处于干员寻访界面且顶部资源栏无遮挡。",
     "pullcount.resource.originium": "衍质源石换算嵌晶玉",

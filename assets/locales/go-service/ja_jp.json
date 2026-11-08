@@ -174,6 +174,7 @@
     "outposttrading.runtime.stock_priority_enabled": "📦 在庫優先販売が有効です。現地在庫数の多い順に商品を選択します。",
     "outposttrading.runtime.usage.restore": "販売後の生産用派遣オペレーター",
     "outposttrading.runtime.usage.target": "販売用派遣オペレーター",
+    "protocolspace.material_summary.title": "育成に必要な素材は以下のとおりです：",
     "pullcount.error.invalid_params": "スカウト回数計算のパラメータが無効です",
     "pullcount.error.recognition_failed": "スカウト回数の認識に失敗しました：%s。オペレーター募集画面を開き、上部リソース欄が隠れていないことを確認してください。",
     "pullcount.resource.originium": "衍質源石を嵌晶玉へ換算した値",

@@ -178,14 +178,13 @@ func writeOperatorMaterials(ctx *maa.Context, nodeName string, materials map[str
 
 // reportOperatorMaterials 通过 Focus 输出培养材料汇总。
 func reportOperatorMaterials(ctx *maa.Context, materials map[string]int) {
-	var lines []string
+	lines := []string{i18n.T("protocolspace.material_summary.title")}
 	for _, itemID := range slices.Sorted(maps.Keys(materials)) {
 		itemNameKey := "iconRecognition.name." + itemID
 		if strings.HasSuffix(itemID, "_EXP") {
 			itemNameKey = "option.SupplyPlanLimits.inputs." + itemID + ".label"
 		}
-		itemName := i18n.T(itemNameKey)
-		lines = append(lines, fmt.Sprintf("%s:%d", itemName, materials[itemID]))
+		lines = append(lines, fmt.Sprintf("%s:%d", i18n.T(itemNameKey), materials[itemID]))
 	}
 
 	maafocus.Print(ctx, strings.Join(lines, "\n"))

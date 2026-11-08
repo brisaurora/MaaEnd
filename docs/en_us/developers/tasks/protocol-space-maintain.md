@@ -48,7 +48,7 @@ The Pipeline controls the flow; Go handles material calculation, aggregation, an
 
 ### Material Summary
 
-`reportOperatorMaterials` sorts by material ID, resolves localized names, and directly displays the result through `maafocus.Print` after aggregation. Experience materials use `option.SupplyPlanLimits.inputs.*.label`; other materials use `iconRecognition.name.*`.
+`reportOperatorMaterials` sorts by material ID and displays plain text through `maafocus.Print` after aggregation. The first line reads "The following materials are required for operator development:" in the selected language, with each material name and quantity on a separate line below. The title is available in all five languages. Experience materials use `option.SupplyPlanLimits.inputs.*.label`; other materials use `iconRecognition.name.*`. Experience quantities represent experience points rather than item counts.
 
 The message shows total development requirements before subtracting inventory; the subsequent inventory flow evaluates shortages. The current message also includes materials with a quantity of zero.
 

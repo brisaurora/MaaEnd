@@ -48,7 +48,7 @@ pnpm generate:ProtocolSpace
 
 ### 材料提示
 
-`reportOperatorMaterials` 按材料 ID 排序，复用多语言名称，通过 `maafocus.Print` 在汇总完成后直接输出。经验类材料使用 `option.SupplyPlanLimits.inputs.*.label`，其他材料使用 `iconRecognition.name.*`。
+`reportOperatorMaterials` 按材料 ID 排序，通过 `maafocus.Print` 在汇总完成后输出纯文本。首行为支持五语言的“培养材料需求如下：”，后续逐行显示材料名称和数量。经验类材料使用 `option.SupplyPlanLimits.inputs.*.label`，其他材料使用 `iconRecognition.name.*`；经验类数量是经验值，不是道具个数。
 
 提示显示培养材料总需求，尚未扣除已有库存；库存缺口交给后续库存流程判断。当前提示也会包含数量为零的材料。
 

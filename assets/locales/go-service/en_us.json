@@ -175,6 +175,7 @@
     "outposttrading.runtime.stock_priority_enabled": "📦 Stock-priority selling is enabled: goods are selected from highest to lowest local stock.",
     "outposttrading.runtime.usage.restore": "post-sale production operator liaison",
     "outposttrading.runtime.usage.target": "selling operator liaison",
+    "protocolspace.material_summary.title": "The following materials are required for operator development:",
     "pullcount.error.invalid_params": "Invalid pull count calculation parameters",
     "pullcount.error.recognition_failed": "Pull count recognition failed: %s. Make sure the Operator Recruitment screen is open and the top resource bar is visible.",
     "pullcount.resource.originium": "Essence Originium converted to Oroberyl",
