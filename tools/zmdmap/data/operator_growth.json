@@ -1,6 +1,6 @@
 {
-    "version": "1.6.4+11262943-8",
-    "sha256": "483c4ef09ec11b8b36a1413557a15279068a982bc154d5a5a16ca82feebded7f",
+    "version": "1.6.4+11529267-11",
+    "sha256": "edb19661e8a9ddfc55cc966230b6736fecbaaa8210930d1cb241368bf44e15d1",
     "level_up": {
         "1": {
             "exp": 20,
@@ -19342,6 +19342,584 @@
                 },
                 {
                     "node_id": "fac_chr_0036_jsspsi_1_2",
+                    "node_type": 5,
+                    "items": {
+                        "item_char_skill_level_7_12": 20,
+                        "item_gold": 20000
+                    }
+                }
+            ]
+        },
+        "chr_0037_minghe": {
+            "names": {
+                "zh_cn": "明河",
+                "zh_tw": "明河",
+                "en_us": "Argent Flow",
+                "ja_jp": "ミンホ",
+                "ko_kr": "명하"
+            },
+            "rarity": 6,
+            "profession": "GUARD",
+            "char_type": "Pulse",
+            "weapon_type": "Sword",
+            "break_nodes": [
+                {
+                    "node_id": "charBreak20",
+                    "break_stage": 1,
+                    "equip_tier_limit": 2,
+                    "items": {
+                        "item_char_break_stage_1_2": 8,
+                        "item_plant_mushroom_1_1": 3,
+                        "item_gold": 1600
+                    }
+                },
+                {
+                    "node_id": "charBreak40",
+                    "break_stage": 2,
+                    "equip_tier_limit": 3,
+                    "items": {
+                        "item_char_break_stage_1_2": 25,
+                        "item_plant_mushroom_1_2": 5,
+                        "item_gold": 6500
+                    }
+                },
+                {
+                    "node_id": "charBreak60",
+                    "break_stage": 3,
+                    "equip_tier_limit": 4,
+                    "items": {
+                        "item_char_break_stage_3_4": 24,
+                        "item_plant_mushroom_1_3": 5,
+                        "item_gold": 18000
+                    }
+                },
+                {
+                    "node_id": "charBreak70",
+                    "break_stage": 4,
+                    "equip_tier_limit": 5,
+                    "items": {
+                        "item_char_break_stage_3_4": 36,
+                        "item_char_skill_specialize_5": 20,
+                        "item_plant_mushroom_2_3": 8,
+                        "item_gold": 100000
+                    }
+                }
+            ],
+            "equip_break_nodes": [
+                {
+                    "node_id": "equipBreakT2",
+                    "break_stage": 1,
+                    "equip_tier_limit": 3,
+                    "items": {
+                        "item_gold": 1600
+                    }
+                },
+                {
+                    "node_id": "equipBreakT3",
+                    "break_stage": 2,
+                    "equip_tier_limit": 4,
+                    "items": {
+                        "item_gold": 6500
+                    }
+                },
+                {
+                    "node_id": "equipBreakT4",
+                    "break_stage": 3,
+                    "equip_tier_limit": 5,
+                    "items": {
+                        "item_gold": 18000
+                    }
+                }
+            ],
+            "skills": [
+                {
+                    "group_id": "chr_0037_minghe_NormalAttack",
+                    "levels": [
+                        {
+                            "level": 2,
+                            "gold": 1000,
+                            "items": {
+                                "item_char_skill_level_1_6": 6,
+                                "item_plant_crylplant_1_1": 1
+                            }
+                        },
+                        {
+                            "level": 3,
+                            "gold": 2700,
+                            "items": {
+                                "item_char_skill_level_1_6": 12,
+                                "item_plant_crylplant_1_1": 2
+                            }
+                        },
+                        {
+                            "level": 4,
+                            "gold": 3200,
+                            "items": {
+                                "item_char_skill_level_1_6": 16,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 5,
+                            "gold": 4200,
+                            "items": {
+                                "item_char_skill_level_1_6": 21,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 6,
+                            "gold": 5400,
+                            "items": {
+                                "item_char_skill_level_1_6": 27,
+                                "item_plant_crylplant_1_2": 2
+                            }
+                        },
+                        {
+                            "level": 7,
+                            "gold": 8200,
+                            "items": {
+                                "item_char_skill_level_7_12": 6,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 8,
+                            "gold": 10500,
+                            "items": {
+                                "item_char_skill_level_7_12": 8,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 9,
+                            "gold": 18000,
+                            "items": {
+                                "item_char_skill_level_7_12": 15,
+                                "item_plant_crylplant_1_3": 2
+                            }
+                        },
+                        {
+                            "level": 10,
+                            "gold": 24000,
+                            "items": {
+                                "item_char_skill_crown": 1,
+                                "item_char_skill_level_7_12": 15,
+                                "item_char_skill_specialize_4": 6,
+                                "item_plant_crylplant_2_3": 3
+                            }
+                        },
+                        {
+                            "level": 11,
+                            "gold": 30000,
+                            "items": {
+                                "item_char_skill_crown": 2,
+                                "item_char_skill_level_7_12": 24,
+                                "item_char_skill_specialize_4": 16,
+                                "item_plant_crylplant_2_3": 6
+                            }
+                        },
+                        {
+                            "level": 12,
+                            "gold": 65000,
+                            "items": {
+                                "item_char_skill_crown": 3,
+                                "item_char_skill_level_7_12": 50,
+                                "item_char_skill_specialize_4": 36,
+                                "item_plant_crylplant_2_3": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group_id": "chr_0037_minghe_NormalSkill",
+                    "levels": [
+                        {
+                            "level": 2,
+                            "gold": 1000,
+                            "items": {
+                                "item_char_skill_level_1_6": 6,
+                                "item_plant_crylplant_1_1": 1
+                            }
+                        },
+                        {
+                            "level": 3,
+                            "gold": 2700,
+                            "items": {
+                                "item_char_skill_level_1_6": 12,
+                                "item_plant_crylplant_1_1": 2
+                            }
+                        },
+                        {
+                            "level": 4,
+                            "gold": 3200,
+                            "items": {
+                                "item_char_skill_level_1_6": 16,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 5,
+                            "gold": 4200,
+                            "items": {
+                                "item_char_skill_level_1_6": 21,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 6,
+                            "gold": 5400,
+                            "items": {
+                                "item_char_skill_level_1_6": 27,
+                                "item_plant_crylplant_1_2": 2
+                            }
+                        },
+                        {
+                            "level": 7,
+                            "gold": 8200,
+                            "items": {
+                                "item_char_skill_level_7_12": 6,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 8,
+                            "gold": 10500,
+                            "items": {
+                                "item_char_skill_level_7_12": 8,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 9,
+                            "gold": 18000,
+                            "items": {
+                                "item_char_skill_level_7_12": 15,
+                                "item_plant_crylplant_1_3": 2
+                            }
+                        },
+                        {
+                            "level": 10,
+                            "gold": 24000,
+                            "items": {
+                                "item_char_skill_crown": 1,
+                                "item_char_skill_level_7_12": 15,
+                                "item_char_skill_specialize_6": 6,
+                                "item_plant_crylplant_2_3": 3
+                            }
+                        },
+                        {
+                            "level": 11,
+                            "gold": 30000,
+                            "items": {
+                                "item_char_skill_crown": 2,
+                                "item_char_skill_level_7_12": 24,
+                                "item_char_skill_specialize_6": 16,
+                                "item_plant_crylplant_2_3": 6
+                            }
+                        },
+                        {
+                            "level": 12,
+                            "gold": 65000,
+                            "items": {
+                                "item_char_skill_crown": 3,
+                                "item_char_skill_level_7_12": 50,
+                                "item_char_skill_specialize_6": 36,
+                                "item_plant_crylplant_2_3": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group_id": "chr_0037_minghe_ComboSkill",
+                    "levels": [
+                        {
+                            "level": 2,
+                            "gold": 1000,
+                            "items": {
+                                "item_char_skill_level_1_6": 6,
+                                "item_plant_crylplant_1_1": 1
+                            }
+                        },
+                        {
+                            "level": 3,
+                            "gold": 2700,
+                            "items": {
+                                "item_char_skill_level_1_6": 12,
+                                "item_plant_crylplant_1_1": 2
+                            }
+                        },
+                        {
+                            "level": 4,
+                            "gold": 3200,
+                            "items": {
+                                "item_char_skill_level_1_6": 16,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 5,
+                            "gold": 4200,
+                            "items": {
+                                "item_char_skill_level_1_6": 21,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 6,
+                            "gold": 5400,
+                            "items": {
+                                "item_char_skill_level_1_6": 27,
+                                "item_plant_crylplant_1_2": 2
+                            }
+                        },
+                        {
+                            "level": 7,
+                            "gold": 8200,
+                            "items": {
+                                "item_char_skill_level_7_12": 6,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 8,
+                            "gold": 10500,
+                            "items": {
+                                "item_char_skill_level_7_12": 8,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 9,
+                            "gold": 18000,
+                            "items": {
+                                "item_char_skill_level_7_12": 15,
+                                "item_plant_crylplant_1_3": 2
+                            }
+                        },
+                        {
+                            "level": 10,
+                            "gold": 24000,
+                            "items": {
+                                "item_char_skill_crown": 1,
+                                "item_char_skill_level_7_12": 15,
+                                "item_char_skill_specialize_4": 6,
+                                "item_plant_crylplant_2_3": 3
+                            }
+                        },
+                        {
+                            "level": 11,
+                            "gold": 30000,
+                            "items": {
+                                "item_char_skill_crown": 2,
+                                "item_char_skill_level_7_12": 24,
+                                "item_char_skill_specialize_4": 16,
+                                "item_plant_crylplant_2_3": 6
+                            }
+                        },
+                        {
+                            "level": 12,
+                            "gold": 65000,
+                            "items": {
+                                "item_char_skill_crown": 3,
+                                "item_char_skill_level_7_12": 50,
+                                "item_char_skill_specialize_4": 36,
+                                "item_plant_crylplant_2_3": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group_id": "chr_0037_minghe_UltimateSkill",
+                    "levels": [
+                        {
+                            "level": 2,
+                            "gold": 1000,
+                            "items": {
+                                "item_char_skill_level_1_6": 6,
+                                "item_plant_crylplant_1_1": 1
+                            }
+                        },
+                        {
+                            "level": 3,
+                            "gold": 2700,
+                            "items": {
+                                "item_char_skill_level_1_6": 12,
+                                "item_plant_crylplant_1_1": 2
+                            }
+                        },
+                        {
+                            "level": 4,
+                            "gold": 3200,
+                            "items": {
+                                "item_char_skill_level_1_6": 16,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 5,
+                            "gold": 4200,
+                            "items": {
+                                "item_char_skill_level_1_6": 21,
+                                "item_plant_crylplant_1_2": 1
+                            }
+                        },
+                        {
+                            "level": 6,
+                            "gold": 5400,
+                            "items": {
+                                "item_char_skill_level_1_6": 27,
+                                "item_plant_crylplant_1_2": 2
+                            }
+                        },
+                        {
+                            "level": 7,
+                            "gold": 8200,
+                            "items": {
+                                "item_char_skill_level_7_12": 6,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 8,
+                            "gold": 10500,
+                            "items": {
+                                "item_char_skill_level_7_12": 8,
+                                "item_plant_crylplant_1_3": 1
+                            }
+                        },
+                        {
+                            "level": 9,
+                            "gold": 18000,
+                            "items": {
+                                "item_char_skill_level_7_12": 15,
+                                "item_plant_crylplant_1_3": 2
+                            }
+                        },
+                        {
+                            "level": 10,
+                            "gold": 24000,
+                            "items": {
+                                "item_char_skill_crown": 1,
+                                "item_char_skill_level_7_12": 15,
+                                "item_char_skill_specialize_6": 6,
+                                "item_plant_crylplant_2_3": 3
+                            }
+                        },
+                        {
+                            "level": 11,
+                            "gold": 30000,
+                            "items": {
+                                "item_char_skill_crown": 2,
+                                "item_char_skill_level_7_12": 24,
+                                "item_char_skill_specialize_6": 16,
+                                "item_plant_crylplant_2_3": 6
+                            }
+                        },
+                        {
+                            "level": 12,
+                            "gold": 65000,
+                            "items": {
+                                "item_char_skill_crown": 3,
+                                "item_char_skill_level_7_12": 50,
+                                "item_char_skill_specialize_6": 36,
+                                "item_plant_crylplant_2_3": 12
+                            }
+                        }
+                    ]
+                }
+            ],
+            "talent_nodes": [
+                {
+                    "node_id": "chr_0037_minghe_1",
+                    "node_type": 3,
+                    "items": {
+                        "item_char_skill_level_1_6": 5,
+                        "item_gold": 1000
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_3",
+                    "node_type": 3,
+                    "items": {
+                        "item_char_skill_level_1_6": 10,
+                        "item_gold": 1800
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_5",
+                    "node_type": 3,
+                    "items": {
+                        "item_char_skill_level_7_12": 10,
+                        "item_gold": 6000
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_7",
+                    "node_type": 3,
+                    "items": {
+                        "item_char_skill_level_7_12": 20,
+                        "item_gold": 12000
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_passive_skill_0_1",
+                    "node_type": 4,
+                    "items": {
+                        "item_char_skill_level_1_6": 12,
+                        "item_gold": 2400
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_passive_skill_0_2",
+                    "node_type": 4,
+                    "items": {
+                        "item_char_skill_level_1_6": 40,
+                        "item_gold": 8600
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_passive_skill_1_1",
+                    "node_type": 4,
+                    "items": {
+                        "item_char_skill_level_1_6": 48,
+                        "item_gold": 10000
+                    }
+                },
+                {
+                    "node_id": "chr_0037_minghe_passive_skill_1_2",
+                    "node_type": 4,
+                    "items": {
+                        "item_char_skill_level_7_12": 28,
+                        "item_gold": 24000
+                    }
+                },
+                {
+                    "node_id": "fac_chr_0037_minghe_0_1",
+                    "node_type": 5,
+                    "items": {
+                        "item_char_skill_level_1_6": 6,
+                        "item_gold": 1600
+                    }
+                },
+                {
+                    "node_id": "fac_chr_0037_minghe_0_2",
+                    "node_type": 5,
+                    "items": {
+                        "item_char_skill_level_7_12": 12,
+                        "item_gold": 8000
+                    }
+                },
+                {
+                    "node_id": "fac_chr_0037_minghe_1_1",
+                    "node_type": 5,
+                    "items": {
+                        "item_char_skill_level_1_6": 12,
+                        "item_gold": 3000
+                    }
+                },
+                {
+                    "node_id": "fac_chr_0037_minghe_1_2",
                     "node_type": 5,
                     "items": {
                         "item_char_skill_level_7_12": 20,

@@ -107,6 +107,7 @@ Only required when maintaining the corresponding task.
 | [OutpostTrading](./tasks/outpost-trading-maintain.md) | Main flow, zmdmap compact game data sync, automatic operators, and dynamic selling-loop maintenance |
 | [SeizeDeliveryJobs](./tasks/seize-delivery-jobs-maintain.md) | Data-driven endpoint generation, landmark-name maintenance, fallback text, and locale synchronization |
 | [GiftOperator](./tasks/gift-operator-maintain.md) | Navigation pathfinding, contact operator selection, gift giving/receiving branches, and operator extension maintenance |
+| [ProtocolSpace Operator Development](./tasks/protocol-space-maintain.md) | Branch changes, material calculation and inventory integration, validation results, and current limitations |
 | [DeliveryJobs](./tasks/delivery-jobs-maintain.md) | Depot node handling modes, anchor landing rules, bid branches, and cargo packing priority maintenance |
 
 ### Third-Party Protocol Documents (`protocol/`)

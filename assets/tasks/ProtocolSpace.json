@@ -2085,6 +2085,15 @@
                             "enabled": true
                         }
                     }
+                },
+                {
+                    "name": "chr_0037_minghe",
+                    "label": "$operator.ArgentFlow",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthArgentFlow": {
+                            "enabled": true
+                        }
+                    }
                 }
             ],
             "default_case": []
