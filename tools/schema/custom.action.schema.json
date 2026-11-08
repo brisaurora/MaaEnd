@@ -498,8 +498,8 @@
                     "custom_action_param": {
                         "type": "object",
                         "properties": {
-                            "datanode":{
-                                "type":"string"
+                            "datanode": {
+                                "type": "string"
                             },
                             "replace_mapping": {
                                 "type": "object",

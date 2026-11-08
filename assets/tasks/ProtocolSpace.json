@@ -1799,6 +1799,285 @@
                     }
                 },
                 {
+                    "name": "chr_0005_chen",
+                    "label": "$operator.ChenQianyu",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthChenQianyu": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0006_wolfgd",
+                    "label": "$operator.Wulfgard",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthWulfgard": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0007_ikut",
+                    "label": "$operator.Arclight",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthArclight": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0009_azrila",
+                    "label": "$operator.Ember",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthEmber": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0011_seraph",
+                    "label": "$operator.Xaihi",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthXaihi": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0012_avywen",
+                    "label": "$operator.Avywenna",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthAvywenna": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0013_aglina",
+                    "label": "$operator.Gilberta",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthGilberta": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0014_aurora",
+                    "label": "$operator.Snowshine",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthSnowshine": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0015_lifeng",
+                    "label": "$operator.Lifeng",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthLifeng": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0016_laevat",
+                    "label": "$operator.Laevatain",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthLaevatain": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0017_yvonne",
+                    "label": "$operator.Yvonne",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthYvonne": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0018_dapan",
+                    "label": "$operator.DaPan",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthDaPan": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0019_karin",
+                    "label": "$operator.Akekuri",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthAkekuri": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0020_meurs",
+                    "label": "$operator.Catcher",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthCatcher": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0021_whiten",
+                    "label": "$operator.Estella",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthEstella": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0022_bounda",
+                    "label": "$operator.Fluorite",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthFluorite": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0023_antal",
+                    "label": "$operator.Antal",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthAntal": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0024_deepfin",
+                    "label": "$operator.Alesh",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthAlesh": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0025_ardelia",
+                    "label": "$operator.Ardelia",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthArdelia": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0026_lastrite",
+                    "label": "$operator.LastRite",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthLastRite": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0027_tangtang",
+                    "label": "$operator.Tangtang",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthTangtang": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0028_wulfa",
+                    "label": "$operator.Rossi",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthRossi": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0029_pograni",
+                    "label": "$operator.Pogranichnik",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthPogranichnik": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0030_zhuangfy",
+                    "label": "$operator.ZhuangFangyi",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthZhuangFangyi": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0031_mifu",
+                    "label": "$operator.MiFu",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthMiFu": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0032_lizhiyan",
+                    "label": "$operator.Arcane",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthArcane": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0033_camille",
+                    "label": "$operator.Camille",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthCamille": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0034_typhoea",
+                    "label": "$operator.Typhoeus",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthTyphoeus": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0035_liino",
+                    "label": "$operator.Liino",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthLiino": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0036_jsspsi",
+                    "label": "$operator.Si",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthSi": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "chr_0038_purrche",
+                    "label": "$operator.Purrchena",
+                    "pipeline_override": {
+                        "ProtocolSpaceGrowthPurrchena": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
                     "name": "chr_9000_endmin",
                     "label": "$operator.Endministrator",
                     "pipeline_override": {

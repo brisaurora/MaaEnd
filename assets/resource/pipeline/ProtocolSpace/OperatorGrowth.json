@@ -5,6 +5,37 @@
         "rate_limit": 0,
         "next": [
             "[JumpBack]ProtocolSpaceGrowthPerlica",
+            "[JumpBack]ProtocolSpaceGrowthChenQianyu",
+            "[JumpBack]ProtocolSpaceGrowthWulfgard",
+            "[JumpBack]ProtocolSpaceGrowthArclight",
+            "[JumpBack]ProtocolSpaceGrowthEmber",
+            "[JumpBack]ProtocolSpaceGrowthXaihi",
+            "[JumpBack]ProtocolSpaceGrowthAvywenna",
+            "[JumpBack]ProtocolSpaceGrowthGilberta",
+            "[JumpBack]ProtocolSpaceGrowthSnowshine",
+            "[JumpBack]ProtocolSpaceGrowthLifeng",
+            "[JumpBack]ProtocolSpaceGrowthLaevatain",
+            "[JumpBack]ProtocolSpaceGrowthYvonne",
+            "[JumpBack]ProtocolSpaceGrowthDaPan",
+            "[JumpBack]ProtocolSpaceGrowthAkekuri",
+            "[JumpBack]ProtocolSpaceGrowthCatcher",
+            "[JumpBack]ProtocolSpaceGrowthEstella",
+            "[JumpBack]ProtocolSpaceGrowthFluorite",
+            "[JumpBack]ProtocolSpaceGrowthAntal",
+            "[JumpBack]ProtocolSpaceGrowthAlesh",
+            "[JumpBack]ProtocolSpaceGrowthArdelia",
+            "[JumpBack]ProtocolSpaceGrowthLastRite",
+            "[JumpBack]ProtocolSpaceGrowthTangtang",
+            "[JumpBack]ProtocolSpaceGrowthRossi",
+            "[JumpBack]ProtocolSpaceGrowthPogranichnik",
+            "[JumpBack]ProtocolSpaceGrowthZhuangFangyi",
+            "[JumpBack]ProtocolSpaceGrowthMiFu",
+            "[JumpBack]ProtocolSpaceGrowthArcane",
+            "[JumpBack]ProtocolSpaceGrowthCamille",
+            "[JumpBack]ProtocolSpaceGrowthTyphoeus",
+            "[JumpBack]ProtocolSpaceGrowthLiino",
+            "[JumpBack]ProtocolSpaceGrowthSi",
+            "[JumpBack]ProtocolSpaceGrowthPurrchena",
             "[JumpBack]ProtocolSpaceGrowthEndministrator",
             "ProtocolSpaceGrowthSummary"
         ]
@@ -66,6 +97,37 @@
                 "custom_action_param": {
                     "nodes": [
                         "ProtocolSpaceGrowthPerlica",
+                        "ProtocolSpaceGrowthChenQianyu",
+                        "ProtocolSpaceGrowthWulfgard",
+                        "ProtocolSpaceGrowthArclight",
+                        "ProtocolSpaceGrowthEmber",
+                        "ProtocolSpaceGrowthXaihi",
+                        "ProtocolSpaceGrowthAvywenna",
+                        "ProtocolSpaceGrowthGilberta",
+                        "ProtocolSpaceGrowthSnowshine",
+                        "ProtocolSpaceGrowthLifeng",
+                        "ProtocolSpaceGrowthLaevatain",
+                        "ProtocolSpaceGrowthYvonne",
+                        "ProtocolSpaceGrowthDaPan",
+                        "ProtocolSpaceGrowthAkekuri",
+                        "ProtocolSpaceGrowthCatcher",
+                        "ProtocolSpaceGrowthEstella",
+                        "ProtocolSpaceGrowthFluorite",
+                        "ProtocolSpaceGrowthAntal",
+                        "ProtocolSpaceGrowthAlesh",
+                        "ProtocolSpaceGrowthArdelia",
+                        "ProtocolSpaceGrowthLastRite",
+                        "ProtocolSpaceGrowthTangtang",
+                        "ProtocolSpaceGrowthRossi",
+                        "ProtocolSpaceGrowthPogranichnik",
+                        "ProtocolSpaceGrowthZhuangFangyi",
+                        "ProtocolSpaceGrowthMiFu",
+                        "ProtocolSpaceGrowthArcane",
+                        "ProtocolSpaceGrowthCamille",
+                        "ProtocolSpaceGrowthTyphoeus",
+                        "ProtocolSpaceGrowthLiino",
+                        "ProtocolSpaceGrowthSi",
+                        "ProtocolSpaceGrowthPurrchena",
                         "ProtocolSpaceGrowthEndministrator"
                     ]
                 }
@@ -102,7 +164,7 @@
             "param": {
                 "custom_action": "ProtocolSpaceOverrideOperatorSupplyPlanAction",
                 "custom_action_param": {
-                    "datanode":"ProtocolSpaceGrowthSummary",
+                    "datanode": "ProtocolSpaceGrowthSummary",
                     "replace_mapping": {
                         "{SupplyPlanLimit_T_CREDS}": "item_gold",
                         "{SupplyPlanLimit_PROTOHEDRON}": "item_char_skill_level_7_12",
@@ -163,5 +225,718 @@
         "next": [
             "SupplyPlanMain"
         ]
+    },
+    "ProtocolSpaceGrowthChenQianyu": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0005_chen",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthWulfgard": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0006_wolfgd",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthArclight": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0007_ikut",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthEmber": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0009_azrila",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthXaihi": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0011_seraph",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthAvywenna": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0012_avywen",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthGilberta": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0013_aglina",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthSnowshine": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0014_aurora",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthLifeng": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0015_lifeng",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthLaevatain": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0016_laevat",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthYvonne": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0017_yvonne",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthDaPan": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0018_dapan",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthAkekuri": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0019_karin",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthCatcher": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0020_meurs",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthEstella": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0021_whiten",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthFluorite": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0022_bounda",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthAntal": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0023_antal",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthAlesh": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0024_deepfin",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthArdelia": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0025_ardelia",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthLastRite": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0026_lastrite",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthTangtang": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0027_tangtang",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthRossi": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0028_wulfa",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthPogranichnik": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0029_pograni",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthZhuangFangyi": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0030_zhuangfy",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthMiFu": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0031_mifu",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthArcane": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0032_lizhiyan",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthCamille": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0033_camille",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthTyphoeus": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0034_typhoea",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthLiino": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0035_liino",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthSi": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0036_jsspsi",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
+    },
+    "ProtocolSpaceGrowthPurrchena": {
+        "enabled": false,
+        "max_hit": 1,
+        "pre_delay": 0,
+        "action": {
+            "type": "Custom",
+            "param": {
+                "custom_action": "ProtocolSpaceCalculateOperatorMaterialsAction",
+                "custom_action_param": {
+                    "__ProtocolSpaceGrowthOperator": "chr_0038_purrche",
+                    "__ProtocolSpaceGrowthOperatorLevel": 1,
+                    "__ProtocolSpaceGrowthBreaknode": 1,
+                    "__ProtocolSpaceGrowthNormalAttackLevel": 1,
+                    "__ProtocolSpaceGrowthNormalSkillLevel": 1,
+                    "__ProtocolSpaceGrowthComboSkillLevel": 1,
+                    "__ProtocolSpaceGrowthUltimateSkillLevel": 1,
+                    "__ProtocolSpaceGrowthTalentLevel": 1
+                }
+            }
+        },
+        "post_delay": 0,
+        "rate_limit": 0
     }
 }
